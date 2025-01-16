@@ -17,7 +17,19 @@ main {
     width: 100%;
 }
 table{
-    width: 90%;
-    border: 2px solid black;
+    width: 60%;
+    border-bottom: 5px solid #099a7b;
     text-align: center;
+    border-collapse: collapse;
+    font-size: xx-large;
+    padding: 15px;
+}
+.titles{
+    background-color: #099a7b;
+}
+.rank{
+    text-align: left;
+}
+td, th {
+    padding: 15px; /* Add this line */
 }
