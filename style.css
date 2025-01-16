@@ -46,6 +46,7 @@ td,
 th {
     padding: 2.3rem;
     cursor: default;
+    transition: font-size 0.5s;
 }
 
 .content_middle {
@@ -62,4 +63,8 @@ th {
 
 .rounded-top-right {
     border-top-right-radius: 15px;
+}
+.animation:hover{
+    font-size: 3.5rem;
+    text-shadow: 0px 0px 2rem rgba(0, 0, 0, 0.2);
 }
