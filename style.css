@@ -30,7 +30,7 @@ table {
     border-collapse: collapse;
     font-size: 3rem;
     padding: 10%;
-    box-shadow: 0 0px 3rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0px 3.3rem rgba(0, 0, 0, 0.2);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
