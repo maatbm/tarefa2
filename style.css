@@ -1,11 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@font-face {
+    font-family: 'BoubaRound-Bold';
+    src: url('font/HvDTrial_BoubaRound-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'BoubaRound-Light';
+    src: url('font/HvDTrial_BoubaRound-Light.otf') format('opentype');
+}
 
 body,
 html {
     margin: 0;
     width: 100vw;
     height: 100vh;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'BoubaRound-Light', sans-serif;
 }
 
 main {
@@ -40,6 +48,7 @@ table {
     background-color: #099a7b;
     color: white;
     font-weight: bolder;
+    font-family: 'BoubaRound-Bold', sans-serif;
 }
 
 td,
@@ -58,4 +67,5 @@ th {
     border-top: 3px solid lightgray;
     font-weight: bold;
     color: #099a7b;
+    font-family: 'BoubaRound-Bold', sans-serif;
 }
