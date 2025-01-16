@@ -8,8 +8,7 @@
     src: url('font/HvDTrial_BoubaRound-Light.otf') format('opentype');
 }
 
-body,
-html {
+body, html {
     margin: 0;
     width: 100vw;
     height: 100vh;
@@ -51,14 +50,9 @@ table {
     font-family: 'BoubaRound-Bold', sans-serif;
 }
 
-td,
-th {
+td, th {
     padding: 2.3rem;
     cursor: default;
-}
-
-.content {
-    text-decoration: none;
 }
 
 .content_middle {
@@ -68,4 +62,12 @@ th {
     font-weight: bold;
     color: #099a7b;
     font-family: 'BoubaRound-Bold', sans-serif;
+}
+
+.rounded-top-left {
+    border-top-left-radius: 15px;
+}
+
+.rounded-top-right {
+    border-top-right-radius: 15px;
 }
