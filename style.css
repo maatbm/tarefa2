@@ -1,18 +1,16 @@
 @font-face {
-    font-family: 'BoubaRound-Bold';
-    src: url('font/HvDTrial_BoubaRound-Bold.otf') format('opentype');
+    font-family: 'Galey';
+    src: url('font/Galey.ttf') format(truetype);
 }
-
 @font-face {
-    font-family: 'BoubaRound-Light';
-    src: url('font/HvDTrial_BoubaRound-Light.otf') format('opentype');
+    font-family: 'Galey-Bold';
+    src: url('font/Galey-Bold.ttf') format(truetype);
 }
-
 body, html {
     margin: 0;
     width: 100vw;
     height: 100vh;
-    font-family: 'BoubaRound-Light', sans-serif;
+    font-family: 'Galey', sans-serif;
 }
 
 main {
@@ -47,7 +45,7 @@ table {
     background-color: #099a7b;
     color: white;
     font-weight: bolder;
-    font-family: 'BoubaRound-Bold', sans-serif;
+    font-family: 'Galey-Bold', sans-serif;
 }
 
 td, th {
@@ -59,9 +57,9 @@ td, th {
     background-color: rgba(235, 235, 235, 0.673);
     border-bottom: 3px solid lightgray;
     border-top: 3px solid lightgray;
-    font-weight: bold;
+    font-weight: bolder;
     color: #099a7b;
-    font-family: 'BoubaRound-Bold', sans-serif;
+    font-family: 'Galey-Bold', sans-serif;
 }
 
 .rounded-top-left {
