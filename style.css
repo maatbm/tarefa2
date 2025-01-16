@@ -1,16 +1,11 @@
-@font-face {
-    font-family: 'Galey';
-    src: url('font/Galey.ttf') format(truetype);
-}
-@font-face {
-    font-family: 'Galey-Bold';
-    src: url('font/Galey-Bold.ttf') format(truetype);
-}
-body, html {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body,
+html {
     margin: 0;
     width: 100vw;
     height: 100vh;
-    font-family: 'Galey', sans-serif;
+    font-family: "Quicksand", serif;
 }
 
 main {
@@ -45,10 +40,10 @@ table {
     background-color: #099a7b;
     color: white;
     font-weight: bolder;
-    font-family: 'Galey-Bold', sans-serif;
 }
 
-td, th {
+td,
+th {
     padding: 2.3rem;
     cursor: default;
 }
@@ -59,7 +54,6 @@ td, th {
     border-top: 3px solid lightgray;
     font-weight: bolder;
     color: #099a7b;
-    font-family: 'Galey-Bold', sans-serif;
 }
 
 .rounded-top-left {
